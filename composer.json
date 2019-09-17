@@ -1,0 +1,21 @@
+{
+    "name": "rsa-esc/encrypt",
+    "description": "this is a encrypt package",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "holdyou",
+            "email": "416248856@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rsa-esc\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
